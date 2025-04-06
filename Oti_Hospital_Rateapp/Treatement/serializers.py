@@ -8,6 +8,8 @@ from django.contrib.auth.password_validation import validate_password
 
 
 class PrescriptionSerializer(serializers.ModelSerializer):
+    doctor = serializers.ReadOnlyField(source='doctor.username')
+    
     class Meta:
         model = Prescription
         fields = '__all__'
@@ -54,4 +56,3 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['id', 'username', 'email', 'first_name', 'last_name']
-        
