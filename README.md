@@ -1,18 +1,18 @@
 This is a repository for my ALX capstone project
 
 {
-        "username" : "Rainchecks",
-        "email" : "Rainchecks@example.com",
-        "password" : "12345passcheck",
-        "password2" : "12345passcheck",
-        "first_name" : "Rains",
-        "last_name" : "Checks"
+        "username" : "TestUser",
+        "email" : "testuser@gmail.com",
+        "password" : "12345test",
+        "password2" : "12345test",
+        "first_name" : "Test",
+        "last_name" : "User"
 }
 
 
 {
-        "username" : "Rainchecks",
-        "password" : "12345passcheck"
+        "username" : "TestUser",
+        "password" : "12345test"
 }
 
 {
